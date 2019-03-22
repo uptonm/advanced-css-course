@@ -65,6 +65,8 @@
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
 
     &--1 {
       background-image: url('../../img/nat-5.jpg'),
@@ -129,7 +131,7 @@
         padding: 1rem;
 
         &:not(:last-child) {
-          border-bottom: 1px solid #eee;
+          border-bottom: 2px solid $color-grey-light-2;
         }
       }
     }
