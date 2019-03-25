@@ -79,6 +79,11 @@
       color: $color-primary;
     }
 
+    &:active .navigation__background {
+      transform: scale(0);
+      color: blue;
+    }
+
     span {
       margin-right: 1rem;
     }
